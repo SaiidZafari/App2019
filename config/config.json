@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "web-part-2019-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webPart2019/WebPart2019WebPart.js",
+          "manifest": "./src/webparts/webPart2019/WebPart2019WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WebPart2019WebPartStrings": "lib/webparts/webPart2019/loc/{locale}.js"
+  }
+}

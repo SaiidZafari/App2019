@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "app-2019-client-side-solution",
+    "id": "b97ddfe2-9f1b-4ffb-a9f7-ff4cbe6444b7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/app-2019.sppkg"
+  }
+}
